@@ -5,8 +5,7 @@ var recipes = {
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  var newObj = Object.assign({key: value}, object);
-  return newObj;
+  return Object.assign(object, {[key]: value})
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
