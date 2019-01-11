@@ -1,3 +1,3 @@
 function object() {
-  new Object();
+  return new Object();
 }
