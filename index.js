@@ -1,3 +1,5 @@
-function object() {
-  return new Object();
+var recipes = {
+  recipe1: "pasta",
+  recipe2: "sandwich",
+  recipe3: "steak"
 }
